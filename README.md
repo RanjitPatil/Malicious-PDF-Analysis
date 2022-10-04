@@ -32,3 +32,12 @@
 > **MD5:** 2264DD0EE26D8E3FBDF715DD0D807569
 
 > **SHA256:** ad6cedb0d1244c1d740bf5f681850a275c4592281cdebb491ce533edd9d6a77d
+
+## Tools used for Analysis
+
+**pdfid -** identifies PDF object types and filters (useful for triage of PDF documents), however it only indicates what is in the document not where
+
+**pdf-parser -** parses, searches and extracts data from PDF documents (use the pdfid tool first and then analyse the suspicious PDFs with pdf-parser)
+
+**peepdf -** is the combination of pdfid & pdf-parser, as it is able to find suspicious objects, decode data and has JavaScript analysis built-ins
+
