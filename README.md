@@ -1,6 +1,6 @@
 # PDF Analysis using REMnux
 
-## PDF file structure
+## Understand the PDF file structure
 
 **1. Header -** contains the version number of the pdf file.
 
