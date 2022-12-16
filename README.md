@@ -33,7 +33,7 @@
 
 > **SHA256:** ad6cedb0d1244c1d740bf5f681850a275c4592281cdebb491ce533edd9d6a77d
 
-![image](https://user-images.githubusercontent.com/43460691/208058443-d4784b38-1233-4c3c-af01-0d12b9c6b784.png)
+![image](https://user-images.githubusercontent.com/43460691/208060601-33e1377c-7130-4597-9ec7-ae7a6aaa1dc3.png)
 
 ## Tools used for Analysis
 
