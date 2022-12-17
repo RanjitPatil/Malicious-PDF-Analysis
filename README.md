@@ -43,3 +43,19 @@
 
 > **peepdf -** is the combination of pdfid & pdf-parser, as it is able to find suspicious objects, decode data and has JavaScript analysis built-ins
 
+## Actions of elements that describe how a PDF works
+
+- **/OpenAction /AA -** the function of this element is to carry out an action for e.g. execute a script
+
+- **/JavaScript /JS -** link to the JavaScript that will run when the PDF is opened
+
+- **/Names -** names of files that will likely be referred to by the PDF itself
+
+- **/EmbeddedFile -** shows the other files embedded within the PDF file itself e.g., scripts
+
+- **/URI /SubmitForm -** Links to other URLs on the internet e.g., possible link to a 2nd stage payload/additional tools for malware to run
+
+- **/Launch -** Similar to OpenAction, can be used to run embedded scripts within the PDF file itself or run new additional files that have been downloaded by the PDF
+
+
+
