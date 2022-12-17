@@ -1,4 +1,4 @@
-# PDF Analysis
+# Malicious PDF Analysis
 
 ## Understand the PDF file structure
 
