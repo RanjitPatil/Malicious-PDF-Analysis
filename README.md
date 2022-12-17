@@ -11,6 +11,8 @@
 **4. Trailer -** contains overall info about the PDF, points to the start of Cross Reference Table.
 
 ![This is an image](https://prtksec.github.io/assets/img/pdf_notes/pdf_structure.png)
+![image](https://user-images.githubusercontent.com/43460691/208237722-fd455a87-1188-48f4-8c31-63f2c8007d64.png)
+
 
 
 ## PDF file actions
