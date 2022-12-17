@@ -77,6 +77,13 @@ PDF also uses **Filters** to decode the encoded data, which tell the PDF reader 
 > ***`REMnux: pdfid.py "location of badpdf.pdf file"`***
 
 
+![image](https://user-images.githubusercontent.com/43460691/208269358-102f0d01-9926-4090-b187-062beb83c5d2.png)
+
+- The output indicates PDF version is 1.3 and PDF contain 14 Objects, 2 Streams and JavaScript objects. 
+
+
+
+
 
 
 
