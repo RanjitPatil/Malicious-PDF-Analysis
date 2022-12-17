@@ -90,7 +90,9 @@ PDF also uses **Filters** to decode the encoded data, which tell the PDF reader 
 
 > ***`REMnux: pdf-parser.py --search openaction badpdf.pdf`***
 
-![image](https://user-images.githubusercontent.com/43460691/208269683-27dda33a-50e4-4a57-b2f0-bfde70b64420.png)
+
+![image](https://user-images.githubusercontent.com/43460691/208269784-d3322e4d-c360-4da2-b389-7af14f06f0ec.png)
+
 
 
 
