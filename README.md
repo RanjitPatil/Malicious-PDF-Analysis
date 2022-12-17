@@ -11,6 +11,7 @@
 **4. Trailer -** contains overall info about the PDF, points to the start of Cross Reference Table.
 
 
+
 ![image](https://user-images.githubusercontent.com/43460691/208238136-81d3926f-1a81-45ab-bf9a-fe207c73c6b5.png)
 ![image](https://user-images.githubusercontent.com/43460691/208238820-669ea948-8466-41a4-a9ce-8c076ee15c66.png)
 
