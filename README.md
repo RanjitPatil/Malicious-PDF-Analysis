@@ -1,4 +1,4 @@
-# PDF Analysis using REMnux
+# PDF Analysis
 
 ## Understand the PDF file structure
 
@@ -56,6 +56,18 @@
 - **/URI /SubmitForm -** Links to other URLs on the internet e.g., possible link to a 2nd stage payload/additional tools for malware to run
 
 - **/Launch -** Similar to OpenAction, can be used to run embedded scripts within the PDF file itself or run new additional files that have been downloaded by the PDF
+
+## String and Data Encoding
+
+PDF can encode strings in multiple ways to obfuscate data,Below are the encoding examples :
+
+![image](https://user-images.githubusercontent.com/43460691/208233540-9b6b7a92-3b19-4df8-97ef-d602a4304682.png)
+
+
+PDF also uses **Filters** to decode the encoded data, which tell the PDF reader that the corresponding string is supposed to be decoded using the provided method.
+
+![image](https://user-images.githubusercontent.com/43460691/208233728-3895976e-4075-42ab-a93a-1362992daaf5.png)
+
 
 
 
