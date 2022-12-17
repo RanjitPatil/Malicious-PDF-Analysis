@@ -79,7 +79,13 @@ PDF also uses **Filters** to decode the encoded data, which tell the PDF reader 
 
 ![image](https://user-images.githubusercontent.com/43460691/208269358-102f0d01-9926-4090-b187-062beb83c5d2.png)
 
-- The output indicates PDF version is 1.3 and PDF contain 14 Objects, 2 Streams and JavaScript objects. 
+The output indicates PDF version is 1.3 and PDF contain 14 Objects, 2 Streams and JavaScript objects. 
+
+## Tool - pdf-parser
+
+pdf-parser will extract all data from the PDF. In order to narrow down to search we need to use the built-in command options such as ‘–Search’.
+
+> ***`REMnux: pdf-parser.py --search openaction badpdf.pdf`***
 
 
 
