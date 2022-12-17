@@ -72,6 +72,12 @@ PDF also uses **Filters** to decode the encoded data, which tell the PDF reader 
 
 ![image](https://user-images.githubusercontent.com/43460691/208060601-33e1377c-7130-4597-9ec7-ae7a6aaa1dc3.png)
 
+## Tool - pdfid
+
+> ***`REMnux: pdfid.py "location of badpdf.pdf file"`***
+
+
+
 
 
 
