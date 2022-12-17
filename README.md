@@ -76,16 +76,17 @@ PDF also uses **Filters** to decode the encoded data, which tell the PDF reader 
 
 > ***`REMnux: pdfid.py "location of badpdf.pdf file"`***
 
+- The output indicates PDF version is 1.3 and PDF contain 14 Objects, 2 Streams and JavaScript objects.
+
 
 ![image](https://user-images.githubusercontent.com/43460691/208269358-102f0d01-9926-4090-b187-062beb83c5d2.png)
-
-The output indicates PDF version is 1.3 and PDF contain 14 Objects, 2 Streams and JavaScript objects. 
+ 
 
 ## Tool - pdf-parser
 
-pdf-parser will extract all data from the PDF. In order to narrow down our search we need to use the built-in command options such as ‘–Search’.
+- pdf-parser will extract all data from the PDF. In order to narrow down our search we need to use the built-in command options such as ‘–Search’.
 
-Use pdfparser with –search to show the /OpenAction object
+- Use pdfparser with –search to show the /OpenAction object
 
 > ***`REMnux: pdf-parser.py --search openaction badpdf.pdf`***
 
