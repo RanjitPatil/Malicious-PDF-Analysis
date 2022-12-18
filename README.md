@@ -119,6 +119,16 @@ PDF also uses **Filters** to decode the encoded data, which tell the PDF reader 
 
 ![image](https://user-images.githubusercontent.com/43460691/208271756-7d526e0b-9392-4904-997a-3fbd9343eaba.png)
 
+- To check JavaScript code we need to dump the code into seprate find and will use JavaScript editior or pee-pdf tool.
+
+> ***`REMnux: pdf-parser.py --object 13 -f -w -d obj13 badpdf.pdf`***
+
+![image](https://user-images.githubusercontent.com/43460691/208271865-c0fa5527-b257-43f3-b823-d9f74eaec199.png)
+
+- We will use pee-pdf tool to look JavaScript.
+
+
+
 
 
 
