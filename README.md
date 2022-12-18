@@ -117,6 +117,9 @@ PDF also uses **Filters** to decode the encoded data, which tell the PDF reader 
 
 > ***`REMnux: pdf-parser.py --object 13 -f -w badpdf.pdf`***
 
+![image](https://user-images.githubusercontent.com/43460691/208271756-7d526e0b-9392-4904-997a-3fbd9343eaba.png)
+
+
 
 
 
