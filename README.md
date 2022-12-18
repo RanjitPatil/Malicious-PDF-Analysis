@@ -113,7 +113,9 @@ PDF also uses **Filters** to decode the encoded data, which tell the PDF reader 
 ![image](https://user-images.githubusercontent.com/43460691/208271229-15edb796-1ceb-44d5-82ab-2deaee61539a.png)
 
 
+- Now let’s search for the Javascript object 13, We will use the -f (filter) & -w (raw output) to check this object.
 
+> ***`REMnux: pdf-parser.py --object 13 -f -w badpdf.pdf`***
 
 
 
