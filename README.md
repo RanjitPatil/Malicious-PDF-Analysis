@@ -93,6 +93,13 @@ PDF also uses **Filters** to decode the encoded data, which tell the PDF reader 
 
 ![image](https://user-images.githubusercontent.com/43460691/208269784-d3322e4d-c360-4da2-b389-7af14f06f0ec.png)
 
+- Now let’s search for the Javascript object with pdfparser
+
+> ***`REMnux: pdf-parser.py --search javascript badpdf.pdf`***
+
+![image](https://user-images.githubusercontent.com/43460691/208270822-a637ac47-81d0-4914-bce4-b0a038359c29.png)
+
+
 
 
 
