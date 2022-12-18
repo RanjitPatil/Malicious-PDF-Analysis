@@ -100,9 +100,11 @@ PDF also uses **Filters** to decode the encoded data, which tell the PDF reader 
 ![image](https://user-images.githubusercontent.com/43460691/208270822-a637ac47-81d0-4914-bce4-b0a038359c29.png)
 
 > ***`REMnux: pdf-parser.py --object 10 badpdf.pdf`***
+
 > ***`REMnux: pdf-parser.py --object 13 badpdf.pdf`***
 
 - Object 10 references boject 12 and its calling the /Namnes object (New_Script)
+
 - Object 13 stores the actual Javascript. It contain /Filter and /FlatDecode action elements, That means it is compressed.
 
 
