@@ -129,6 +129,8 @@ PDF also uses **Filters** to decode the encoded data, which tell the PDF reader 
 
 ## Tool - peepdf
 
+![image](https://user-images.githubusercontent.com/43460691/208271979-736af618-994b-424e-8f5c-99c86acb0e32.png)
+
 ![image](https://user-images.githubusercontent.com/43460691/208271923-ad63167b-ce26-4ceb-aa06-409d23ddef39.png)
 
 
