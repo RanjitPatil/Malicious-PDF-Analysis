@@ -2,13 +2,13 @@
 
 ## Understand the PDF file structure
 
-**1. Header -** contains the version number of the pdf file.
+**1. Header -** Contains the version number of the pdf file.
 
-**2. Body -** contains objects - obj values (number) denotes its name and its version number, obj & endobj refers to the beginning and end of an object.
+**2. Body -** Contains objects - obj values (number) denotes its name and its version number, obj & endobj refers to the beginning and end of an object.
 
 **3. Cross Reference Table -** Specifies the offset from the start of the file to each object in the file, so that the PDF reader will be able to locate them without loading the whole document, begins with the keyword xref.
 
-**4. Trailer -** contains overall info about the PDF, points to the start of Cross Reference Table.
+**4. Trailer -** Contains overall info about the PDF, points to the start of Cross Reference Table.
 
 
 
@@ -16,22 +16,22 @@
 ![image](https://user-images.githubusercontent.com/43460691/208238820-669ea948-8466-41a4-a9ce-8c076ee15c66.png)
 
 
-## PDF file actions
+## PDF file Actions :
 
-**1. /OpenAction /AA -** the function of this element is to carry out an action for e.g. execute a script.
+**1. /OpenAction /AA -** The function of this element is to carry out an action for e.g. execute a script.
 
-**2. /JavaScript /JS -** link to the JavaScript that will run when the PDF is opened.
+**2. /JavaScript /JS -** Link to the JavaScript that will run when the PDF is opened.
 
-**3. /Names -** names of files that will likely be referred to by the PDF itself.
+**3. /Names -** Names of files that will likely be referred to by the PDF itself.
 
-**4. /EmbeddedFile -** shows the other files embedded within the PDF file itself e.g., scripts.
+**4. /EmbeddedFile -** Shows the other files embedded within the PDF file itself e.g., scripts.
 
 **5. /URI /SubmitForm -** Links to other URLs on the internet e.g., possible link to a 2nd stage payload/additional tools for malware to run.
 
 **6. /Launch -** Similar to OpenAction, can be used to run embedded scripts within the PDF file itself or run new additional files that have been downloaded by the PDF.
 
 
-## Actions of elements that describe how a PDF works
+## Actions of elements that describe how a PDF works :
 
 - **/OpenAction /AA -** This element's function is to carry out an action, such as running a script.
 
@@ -58,11 +58,11 @@ PDF also uses **Filters** to decode the encoded data, which tell the PDF reader 
 
 ## Tools used for Analysis
 
-> **pdfid -** identifies PDF object types and filters.
+> **pdfid -** Identifies PDF object types and filters.
 
-> **pdf-parser -** parses, searches and extracts data from PDF documents.
+> **pdf-parser -** Parses, Searches and Extracts data from PDF documents.
 
-> **peepdf -** is the combination of pdfid & pdf-parser, as it is able to find suspicious objects, decode data and has JavaScript analysis built-ins
+> **peepdf -** Combination of pdfid & pdf-parser, as it is able to find suspicious objects, decode data and has JavaScript analysis built-ins
 
 ## Malware Sample
 
