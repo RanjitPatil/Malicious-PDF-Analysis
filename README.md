@@ -149,6 +149,10 @@ PDF also uses **Filters** to decode the encoded data, which tell the PDF reader 
 
 ![image](https://user-images.githubusercontent.com/43460691/208677682-a5f8d908-d44d-4630-9680-a0b3b96c192e.png)
 
+- Modified downlodes JavaScript and executed to find out what is inside the Shellcode.
+
+
+
 
 
 
