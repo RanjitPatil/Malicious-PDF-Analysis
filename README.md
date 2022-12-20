@@ -137,6 +137,21 @@ PDF also uses **Filters** to decode the encoded data, which tell the PDF reader 
 
 ![image](https://user-images.githubusercontent.com/43460691/208673609-0dfe52cf-a1fc-465b-9dea-27757ed7d58a.png)
 
+## Script Obfucsation Techniques :
+
+- **Formatting -** Modifies the format of the code to make it defficult to read.
+
+- **Extraneous Code -** Add extra lines of code to confuse analysts.
+
+- **Data Obfucsation -** Use operations to make data unreadable of confusing.
+
+- **Substitution -** Modify the veriable names to random and meaningless names.
+
+![image](https://user-images.githubusercontent.com/43460691/208677682-a5f8d908-d44d-4630-9680-a0b3b96c192e.png)
+
+
+
+
 
 
 
