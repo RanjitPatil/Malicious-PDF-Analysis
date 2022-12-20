@@ -131,7 +131,12 @@ PDF also uses **Filters** to decode the encoded data, which tell the PDF reader 
 
 ![image](https://user-images.githubusercontent.com/43460691/208271979-736af618-994b-424e-8f5c-99c86acb0e32.png)
 
-![image](https://user-images.githubusercontent.com/43460691/208271923-ad63167b-ce26-4ceb-aa06-409d23ddef39.png)
+- Use below command to downlode js file in peepdf.
+
+> ***`REMnux: PPDF> object 13 > obj13.js`***
+
+![image](https://user-images.githubusercontent.com/43460691/208673609-0dfe52cf-a1fc-465b-9dea-27757ed7d58a.png)
+
 
 
 
