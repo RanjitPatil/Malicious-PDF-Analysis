@@ -151,6 +151,21 @@ PDF also uses **Filters** to decode the encoded data, which tell the PDF reader 
 
 - Modified downloded JavaScript and executed to find out what is inside the Shellcode.
 
+- We will use **SpiderMonkey** tool to execute Javascript.
+
+![image](https://user-images.githubusercontent.com/43460691/208923459-d16ab616-73ce-4152-aa41-0b1bc66c4743.png)
+
+- After the execution we can see three log files created, Which is Binary, Unicode and Ascii representation of Shellcode.
+
+![image](https://user-images.githubusercontent.com/43460691/208924027-b457e22c-1760-4893-92fa-1b0699927e7d.png)
+
+- We have used hexdump and strings command to look into our log file.
+
+![image](https://user-images.githubusercontent.com/43460691/208925940-c8d225a9-c87f-457b-8a69-d37a207a6aec.png)
+
+
+
+
 
 
 
