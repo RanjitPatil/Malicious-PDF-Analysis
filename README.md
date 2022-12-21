@@ -161,7 +161,8 @@ PDF also uses **Filters** to decode the encoded data, which tell the PDF reader 
 
 - We have used hexdump and strings command to look into our log file.
 
-![image](https://user-images.githubusercontent.com/43460691/208925940-c8d225a9-c87f-457b-8a69-d37a207a6aec.png)
+![image](https://user-images.githubusercontent.com/43460691/208928407-8cd12bcc-4f7b-4b96-9901-e9213665b12d.png)
+
 
 ## References :
 
